@@ -114,4 +114,10 @@ abstract class Repository implements RepositoryInterface, CriteriaInterface
         }
         return $this;
     }
+
+    public function clearCriteria()
+    {
+        $this->criteria = new Collection;
+        return $this;
+    }
 }

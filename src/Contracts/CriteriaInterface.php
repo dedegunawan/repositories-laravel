@@ -14,4 +14,6 @@ interface CriteriaInterface {
 
     public function applyCriteria();
 
+    public function clearCriteria();
+
 }
